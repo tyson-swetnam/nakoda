@@ -27,6 +27,7 @@ nav:
     - Remote Control: rc.md
   - Maintenance:
     - Firmware: firmware.md
+    - RemoteID: remoteid.md
     - Maintenance: maintenance.md
     - Troubleshooting: troubleshooting.md
     - Repair: repair.md

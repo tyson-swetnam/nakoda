@@ -2,9 +2,9 @@
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 
-Drones rely on Lithium Polymer (LiPo) batteries, for their high energy density to weight ratios. 
+Drones use Lithium Polymer (LiPo) batteries for their high energy density to weight ratio.
 
-The good news is that Lithium battery technology has greatly advanced in the last 5-years, and prices have come down considerably.
+Lithium polymer battery technology has greatly advanced in the last 5-years, and prices have come down considerably.
 
 ## Nakoda Batteries
 
@@ -13,6 +13,8 @@ Nakoda has 4 [Tattu Plus 16,000 mAh](https://genstattu.com/tattu-agri-16000mah-4
 Each battery weighs ~2kg (!)
 
 Charging each battery using a standard charger takes XXX minutes
+
+| Voltage | Capacity | Amps | 
 
 ## Mini-me Batteries
 
@@ -25,6 +27,8 @@ The Floureon batteries appear to be out of production. There are numerous other 
 [![Youtube](http://i.ytimg.com/vi/QopBnRw9BNM/hqdefault.jpg)](https://youtu.be/QopBnRw9BNM?si=K2xqnQ4D6QsUjUxm)
 
 ## Battery Health
+
+All of the Nakoda batteries arrived with zero charge on them. This is bad. 
 
 [Tattu Manuals](https://www.genstattu.com/content/Ordinary.pdf) suggests charging and discharing the batteries very 3-months. 
 

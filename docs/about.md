@@ -12,11 +12,11 @@ In 2019 AZGFD commissioned Arizona State University to develop a heavy lift sUAS
 [![YouTube](http://i.ytimg.com/vi/MqV0MHsP57E/hqdefault.jpg)](https://www.youtube.com/watch?v=MqV0MHsP57E)
 
 
-The UAS crashed several times, both during development and its early operational flights. After its last crash it was later shelved and has been in storage for ~5 years. 
+The sUAS crashed several times, both during development and its early operational flights. After its last crash it was later shelved and has been in storage for ~5 years. 
 
 ## Equipment 
 
-In January 2025 the Nakoda UAS, its "mini-me" test drone, and all of its support equipment were delivered to me at University of Arizona.
+In January 2025 the Nakoda sUAS, its "mini-me" test sUAS, and all of its support equipment were delivered to me at University of Arizona.
 
 AZGFD dropped off the drone with all of its associated support equipment and storage boxes. See [Equipment](equipment.md) for the list of items. 
 
@@ -30,8 +30,9 @@ See [Repair Pages](repair.md) for details on the repair.
 
 ## Documentation
 
-I am creating and curating these documentation pages for posterity, and for AZGFD staff who will receive the drone and have to operate it.
+Nakoda did not arrive with any set of instructions for how to operate it, how to use or program the remote controls, how to charge or maintain the batteries, or how to use a Ground Control Station (GCS) with autonomous mission planning software. 
 
-Nakoda did not arrive with any set of instructions for how to operate the drone, how to use the remote control, how to charge or maintain the batteries, or how to use a Ground Control Station (GCS) with autonomous mission planning software. 
+I am creating and curating these documentation pages for posterity, and for AZGFD staff who will operate and maintain it. 
+
 
 

@@ -12,9 +12,18 @@ We are going to set up the ArduPilot Software on the PixHawk 4
 
 [Taranis Plus](https://www.frsky-rc.com/taranis-x9d-plus-2019/)
 
-## Pixhawk Firmware
+## Pixhawk4 Firmware
 
-Follow directions on Ardupilot website, https://ardupilot.org/planner/docs/common-loading-firmware-onto-pixhawk.html
+### MissionPlanner
+Follow directions on Ardupilot website, [https://ardupilot.org/planner/docs/common-loading-firmware-onto-pixhawk.html](https://ardupilot.org/planner/docs/common-loading-firmware-onto-pixhawk.html){target=_blank}
+
+### QGroundControl
+
+Follow directions on DroneCode QGroundControl website, [https://docs.qgroundcontrol.com/master/en/qgc-user-guide/setup_view/firmware.html](https://docs.qgroundcontrol.com/master/en/qgc-user-guide/setup_view/firmware.html){target=_blank}
+
+[![YouTube](http://i.ytimg.com/vi/BNzeVGD8IZI/hqdefault.jpg)](https://www.youtube.com/watch?v=BNzeVGD8IZI)
+
+
 
 Select ArduCopter V3.0.1 Octa 
 
