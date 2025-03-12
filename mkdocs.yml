@@ -1,0 +1,158 @@
+site_name: 'NAKODA'
+site_description: 'Documentation for Nakoda UAV rebuild'
+site_author: 'University of Arizona Institute for Computation & Data-enabled Insight'
+site_url: https://tyson-swetnam.github.io/nakoda
+# Repository
+repo_name: nakoda
+repo_url: https://github.com/tyson-swetnam/nakoda
+edit_uri: edit/main/docs/
+# Copyright
+copyright: 'Copyright &copy; 2025 University of Arizona Institute for Computation & Data-enabled Insight'
+
+# Page tree
+nav:
+  - Home: index.md
+  - Information: 
+    - About: about.md
+    - Team: team.md
+    - Contact: contact.md
+  - Equipment: 
+    - List: equipment.md
+    - Nakoda: nakoda.md
+    - Mini-me: minime.md
+    - Operations: operations.md
+    - Pre-Flight: flight.md
+    - Battery Management: battery.md
+    - Mission Planner: planner.md
+    - Remote Control: rc.md
+  - Maintenance:
+    - Firmware: firmware.md
+    - Maintenance: maintenance.md
+    - Troubleshooting: troubleshooting.md
+    - Repair: repair.md
+
+# Configuration
+
+theme:
+  name: 'material'
+  #custom_dir: material/overrides
+  # 404 page
+  static_templates:
+    - 404.html
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: home 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  font:
+    text: Montserrat
+    code: Regular
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - content.code.copy
+    - content.code.prettify
+    - content.tooltips
+  favicon: 'assets/ua.ico'
+  logo: 'assets/ua.png'
+
+# Options
+extra:
+  social:
+    - icon: fontawesome/brands/orcid
+      link: https://orcid.org/0000-0002-6639-7181
+    - icon: simple/googlescholar  
+      link: https://scholar.google.com/citations?user=nanIeAYAAAAJ&hl=en
+    - icon: fontawesome/brands/github
+      link: https://github.com/tyson-swetnam/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/tswetnam
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/tyson-swetnam
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/u/tswetnam
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UC5xPt9KZHccC0ehMNEkINzQ
+  analytics:
+    provider: google
+    property: G-NYETZFD8DN
+  
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_css:
+  - stylesheets/extra.css
+  - chatbot_widget.css
+
+extra_javascript:
+  - chatbot_widget.js
+ 
+plugins:
+    - social:
+        cards_layout_options:
+          background_color: blue # Change background color
+          background_image: null # Remove background image
+    - search
+    - mkdocstrings
+    - git-revision-date
