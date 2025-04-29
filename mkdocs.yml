@@ -15,6 +15,7 @@ nav:
   - Information: 
     - About: about.md
     - Team: team.md
+    - Pilots: pilots.md
     - Contact: contact.md
   - Equipment: 
     - List: equipment.md
@@ -26,11 +27,12 @@ nav:
     - Mission Planner: planner.md
     - Remote Control: rc.md
   - Maintenance:
+    - Triage: triage.md
     - Firmware: firmware.md
     - RemoteID: remoteid.md
     - Maintenance: maintenance.md
     - Troubleshooting: troubleshooting.md
-    - Repair: repair.md
+
 
 # Configuration
 

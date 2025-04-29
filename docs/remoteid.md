@@ -12,6 +12,14 @@ All drones, including DIY drones, must use Remote ID while in operation.
 
 [https://pilotinstitute.com/homebuilt-remote-id-rules/](https://pilotinstitute.com/homebuilt-remote-id-rules/)
 
+## Ruko ID
+
+I purchased a [Ruko Remote ID module](https://www.ruko.net/products/ruko-r111-remote-id-module) from Amazon. 
+
+the Ruko has a separate USB-C charger, and runs wirelessly on either Nakoda or Mini-me. It can be managed using a [Cell Phone App](https://rukotoy.com/download-center/products/r111) 
+
+Note: this is a Chinese made device, but is [compliant with US regulations](https://www.ruko.net/blogs/ruko/drone-regulations-in-the-usa).
+
 ## Getting an ID
 
 [https://www.faa.gov/uas/getting_started/remote_id](https://www.faa.gov/uas/getting_started/remote_id)
