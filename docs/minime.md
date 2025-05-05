@@ -11,12 +11,19 @@ Originally called "Bride of Chucky", we're calling it "mini-me"
 ## Pixhawk4
 
 ### GPS
-
+  [Holybro M8N](https://holybro.com/collections/dronecan-gps-module/products/dronecan-m8n-gps)
+  
 ### RC Antenna
+  [RX8R PRO](https://www.frsky-rc.com/product/rx8r-pro/)
+
+### SiK Telemetryr Radio 
+  [Holybro SiK V3](https://holybro.com/products/sik-telemetry-radio-v3)
 
 ### FPV Antenna
 
 ## Power Distribution Board (PDB)
+  
+  [Holybro PM07](https://holybro.com/products/pixhawk-4-power-module-pm07)
 
 ## Motors
 

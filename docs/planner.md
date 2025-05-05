@@ -60,7 +60,27 @@ chmod +x ./QGroundControl.AppImage
 ```
 
 ## Loading Firmware
+Firmware can be reflashed/updated from the Vehicle Setup > Firmware menu. The [wiki](https://docs.qgroundcontrol.com/master/en/qgc-user-guide/setup_view/firmware.html) has slightly outdated screenshots. 
+> QGroundControl may guide you through firmware parameters upon first flash
 
+
+## Firmware Setup
+The following is a list of working parameters for Mini-me:
+  
+* **Airframe**: Generic 10" Octo 
+  ![airframe screenshot](./assets/screenshots/FrameSetup.png)
+* **Sensors**: Follow calibration steps if asked for by QGroundControl.
+* **Radio**: Follow calibration steps as outlined by QGroundControl, requires radio telemetry to be plugged plugged into main board.
+  ![radio screenshot](./assets/screenshots/RadioSetup.png)
+* **Flight Modes**: Adjust the "mode channel" to reflect which switch on the radio controller you would like to control flight mode.
+    - **Switch Settings**: Controls which switch (channel) on the radio controller arms, kills, etc.
+* **Power**: Source is "Power Module" with 4 cells. Other values are kept default for now. 
+    - You should calibrate ESC's on this screen as well. Make sure the battery is disconnected and the Pixhawk is connected to the  laptop via USB. Press calibrate, then connect the battery when prompted to.
+    ![Power Screenshot](./assets/screenshots/PowerAdjust.png)
+* **Actuators**: Identify and assign motors under the "PWM MAIN" menu. The motor will briefly spin and you select the corresponding motor in the graphic to the left. Make sure the battery is connected when doing this.
+  ![Actuator Screenshot](./assets/screenshots/ActuatorSetup.png)
+
+This should provide the bare minimum to control the drone via a remote controller. It's important to note that these steps are not required every time the drone will fly, but rather in case of software malfunction requiring a reset. For more information on firmware setup. the [QGroundControl Wiki](https://docs.qgroundcontrol.com/master/en/qgc-user-guide/setup_view/setup_view.html) provides further details and considerations on firmware setup
 ## Plan Autonomous Mission
 
 ## MAVProxy

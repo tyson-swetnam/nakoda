@@ -88,7 +88,8 @@ All equipment delivered by AZGFD underwent a detailed inspection. Key findings a
 
     * **Action Taken:** The original Mini-me PDB was deemed unsafe and removed. It was replaced with a new, unused PX4 PDB. All power leads were carefully desoldered from the old board and re-soldered onto the new PDB with proper spacing and insulation. Connections were continuity-tested before applying battery power.
 
-    * **Additional Upgrade:** A new Power Supply Board (PSB), similar to the type used on Nakoda, was also acquired for Mini-me. This type of board simplifies power wiring and reduces the need for high-current soldering directly onto the PDB main pads, potentially improving reliability. *(Installation pending or completed - clarify if needed)*
+    * **Additional Upgrade:** A new Power Supply Board (PSB), similar to the type used on Nakoda, was also acquired for Mini-me. This type of board simplifies power wiring and reduces the need for high-current soldering directly onto the PDB main pads, potentially improving reliability. Installation completed along with cable resizing and remanagement.
+
 
 * **Nakoda Wiring Issues:**
 
@@ -108,9 +109,11 @@ All equipment delivered by AZGFD underwent a detailed inspection. Key findings a
 
     ![Ardupilot Octocopter Motor Numbering Diagram](assets/photos/ardupilot_octo_motor_diagram.jpg)
 
-* **Mini-me Motor Failures:** During testing, three of the DJI motors on the Mini-me drone were found to be inoperable (failed to spin or exhibited erratic behavior).
+* **Mini-me Motor Failures:** During testing, six of the DJI motors on the Mini-me drone were found to be inoperable (failed to spin or exhibited erratic behavior).
+  
+    ![All 6 broken motors]()
 
-* **Action Taken:** The three failed DJI motors were replaced with the extra motors from the cache box.
+* **Action Taken:** The six failed DJI motors were replaced with the extra motors from the cache box.
 
 ### 2.6. Propellers (Nakoda)
 
