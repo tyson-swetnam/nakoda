@@ -15,7 +15,7 @@
     - [Remote Control](rc.md)
     - [Mission Planner](planner.md)
 
-- [Repair](repair.md)
+- [Repair](triage.md)
     - [Firmware](firmware.md)
     - [Maintenance](maintenance.md)
     - [Troubleshooting](troubleshooting.md)
